@@ -50,6 +50,7 @@ with tab1:
         - 🕒 **05:55** 桃園機場起飛（FD242）
         - 🕒 **10:40** 抵達新千歲機場
         - 🕒 **12:30** 搭乘 JR 前往札幌（約 40 分鐘）
+        - 🕒 **13:30** 搭乘 計程車 前往飯店寄放行李
         - 🕒 **15:00** 飯店 Check-in：[札幌薄野 Holiday Inn Express](https://maps.google.com/?q=Holiday+Inn+Express+Sapporo+Susukino)
         
         **🏙️ 札幌市區景點**
@@ -84,6 +85,7 @@ with tab1:
 
     with st.expander("Day 3｜12/08（二）定山溪漂流"):
         st.markdown("""
+        - 🕒 **9:30** 從薄野公車站搭乘 巴士 前往定山溪
         - 🕒 **11:30** 集合地點：[フリルフスリフ（Friluftsliv）](https://maps.google.com/?q=Friluftsliv+Jozankei)
         - 🚣 漂流活動時間約 5 小時（費用：¥10,000／人）
         
@@ -137,6 +139,7 @@ with tab1:
 
     with st.expander("Day 7｜12/12（六）新千歲機場・採購返台"):
         st.markdown("""
+        - 🕒 **09:00** 從飯店搭乘 計程車 前往札幌車站
         - 🕒 **10:00** 從札幌搭乘 JR 前往新千歲機場
         - 🕒 **11:00** [新千歲機場逛街與免稅店採購](https://maps.google.com/?q=New+Chitose+Airport)
         - 🕒 **14:00** 搭乘泰亞航 FD243 返回桃園機場
