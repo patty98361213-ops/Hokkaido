@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🇯🇵 北海道 7 天 6 夜冬日奢華之旅 (2026/12/06 - 12/12)</title>
+    <title>🇯🇵 北海道 7 天 6 夜冬日之旅 (2026/12/06 - 12/12)</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome Icons -->
