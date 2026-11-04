@@ -120,7 +120,7 @@ with tab1:
         
         **🍜 美食推薦**
         - 🕒 **17:45** [蟹座](https://maps.google.com/?q=Kaniza+Sapporo)
-        
+        """)  # <--- 這裡原本漏了這個結尾引號和括號
 
     with st.expander("Day 6｜12/11（五）札幌市區深入漫遊"):
         st.markdown("""
