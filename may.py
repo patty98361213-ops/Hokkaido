@@ -124,7 +124,7 @@ with tab1:
 
     with st.expander("Day 6｜12/11（五）札幌市區深入漫遊"):
         st.markdown("""
-        - [狸小路商店街、薄野商圈逛街](https://maps.google.com/?q=Tanukikoji+Shopping+Street)
+        - [狸小路商店街逛街](https://maps.google.com/?q=Tanukikoji+Shopping+Street)
         - [中島公園拍照](https://maps.google.com/?q=Nakajima+Park+Sapporo)
         - [白色戀人公園](https://maps.google.com/?q=Shiroi+Koibito+Park)（訂製紀念鐵盒）
         - [北海道神宮](https://maps.google.com/?q=Hokkaido+Shrine)（💡 建議 9:00 前抵達購買限定梅酒與玻璃珠御守）
