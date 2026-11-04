@@ -88,7 +88,7 @@ with tab1:
         - 🚣 漂流活動時間約 5 小時（費用：¥10,000／人）
         
         **🍜 美食推薦**
-        - [羊座](https://maps.app.goo.gl/hFQD9MeCFw2uT5wH6?g_st=ic)
+        - 🕒 **18:00** [羊座](https://maps.app.goo.gl/hFQD9MeCFw2uT5wH6?g_st=ic)
         """)
 
     with st.expander("Day 4｜12/09（三）小樽一日遊"):
