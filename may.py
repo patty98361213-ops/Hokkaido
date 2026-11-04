@@ -241,9 +241,7 @@ with tab_itinerary:
         st.markdown("""
         <div class="cream-card">
             <span class="time-badge">10:00</span> 從札幌搭乘 JR 前往新千歲機場<br>
-            <span class="time-badge">11:00</span> <a href="https://maps.google.com/?q=New+Chitose+Airport" target="_blank">📍 新千歲機場逛街與免稅店採購</a><br>
-            💄 彩妝採購：Prada 氣墊粉餅<br>
-            <span class="time-badge">14:00</span> 搭乘泰亞航 FD243 返回桃園機場<br>
+            <span class="time-badge">11:00</span> <a href="https://maps.google.com/?q=New+Chitose+Airport" target="_blank">
             <span class="time-badge">17:55</span> 順利抵達桃園機場
         </div>
         """, unsafe_allow_html=True)
