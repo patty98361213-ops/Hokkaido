@@ -61,7 +61,7 @@ with tab1:
         """)
         st.markdown("""
         <div class="map-btn-card">
-            <a href="https://maps.google.com/?q=Holiday+Inn+Express+Sapporo+Susukino" target="_blank">📍 點擊開啟：札幌薄野 Holiday Inn Express 飯店導航</a>
+            <a href="https://maps.google.com/?q=Holiday+Inn+Express+Sapporo+Susukino" target="_blank">📍札幌薄野 Holiday Inn Express 飯店導航</a>
         </div>
         """, unsafe_allow_html=True)
         
@@ -76,14 +76,14 @@ with tab1:
         for name, q in spots_day1:
             st.markdown(f"""
             <div class="map-btn-card">
-                <a href="https://maps.google.com/?q={q}" target="_blank">📍 導航至：{name}</a>
+                <a href="https://maps.google.com/?q={q}" target="_blank">📍{name}</a>
             </div>
             """, unsafe_allow_html=True)
 
         st.markdown("**🍜 美食推薦**")
         st.markdown("""
         <div class="map-btn-card">
-            <a href="https://maps.google.com/?q=Soup+Curry+GARAKU+Sapporo" target="_blank">📍 導航至：Soup Curry GARAKU 湯咖哩</a>
+            <a href="https://maps.google.com/?q=Soup+Curry+GARAKU+Sapporo" target="_blank">📍Soup Curry GARAKU 湯咖哩</a>
         </div>
         """, unsafe_allow_html=True)
         st.markdown("- 🍓 水果吃爆：草莓等特產水果")
@@ -94,7 +94,7 @@ with tab1:
         """)
         st.markdown("""
         <div class="map-btn-card">
-            <a href="https://maps.google.com/?q=Sapporo+TV+Tower" target="_blank">📍 導航至：札幌電視塔 1 樓資訊中心（大通地鐵 27 號出口旁）</a>
+            <a href="https://maps.google.com/?q=Sapporo+TV+Tower" target="_blank">📍 札幌電視塔 1 樓資訊中心（大通地鐵 27 號出口旁）</a>
         </div>
         """, unsafe_allow_html=True)
         
@@ -109,7 +109,7 @@ with tab1:
         for name, q in spots_day2:
             st.markdown(f"""
             <div class="map-btn-card">
-                <a href="https://maps.google.com/?q={q}" target="_blank">📍 導航至：{name}</a>
+                <a href="https://maps.google.com/?q={q}" target="_blank">📍{name}</a>
             </div>
             """, unsafe_allow_html=True)
         st.markdown("- 🕒 **19:30** 返回札幌")
@@ -118,7 +118,7 @@ with tab1:
         st.markdown("""
         - 🏪 早餐：超商買好車上吃
         <div class="map-btn-card">
-            <a href="https://maps.google.com/?q=Sumire+Sapporo+Susukino" target="_blank">📍 導航至：20:00 味噌拉麵 すみれ (Sumire)</a>
+            <a href="https://maps.google.com/?q=Sumire+Sapporo+Susukino" target="_blank">📍20:00 味噌拉麵 すみれ (Sumire)</a>
         </div>
         - 🍓 水果吃爆：草莓等
         """, unsafe_allow_html=True)
@@ -127,7 +127,7 @@ with tab1:
         st.markdown("- 🕒 **11:30** 集合地點")
         st.markdown("""
         <div class="map-btn-card">
-            <a href="https://maps.google.com/?q=Friluftsliv+Jozankei" target="_blank">📍 導航至：フリルフスリフ（Friluftsliv）</a>
+            <a href="https://maps.google.com/?q=Friluftsliv+Jozankei" target="_blank">📍フリルフスリフ（Friluftsliv）</a>
         </div>
         - 🚣 漂流活動時間約 5 小時（費用：¥10,000／人）
         
@@ -135,7 +135,7 @@ with tab1:
         """, unsafe_allow_html=True)
         st.markdown("""
         <div class="map-btn-card">
-            <a href="https://maps.google.com/?q=Kaniza+Sapporo" target="_blank">📍 導航至：蟹座</a>
+            <a href="https://maps.google.com/?q=Kaniza+Sapporo" target="_blank">📍蟹座</a>
         </div>
         - 🍓 水果吃爆：草莓等
         """, unsafe_allow_html=True)
@@ -155,14 +155,14 @@ with tab1:
         for name, q in spots_day4:
             st.markdown(f"""
             <div class="map-btn-card">
-                <a href="https://maps.google.com/?q={q}" target="_blank">📍 導航至：{name}</a>
+                <a href="https://maps.google.com/?q={q}" target="_blank">📍{name}</a>
             </div>
             """, unsafe_allow_html=True)
             
         st.markdown("**🍜 美食推薦**")
         st.markdown("""
         <div class="map-btn-card">
-            <a href="https://maps.google.com/?q=Naruto+Main+Shop+Otaru" target="_blank">📍 導航至：若雞時代 なると 本店</a>
+            <a href="https://maps.google.com/?q=Naruto+Main+Shop+Otaru" target="_blank">📍若雞時代 なると 本店</a>
         </div>
         """, unsafe_allow_html=True)
 
@@ -170,7 +170,7 @@ with tab1:
         st.markdown("- 🕒 **07:45** 集合地點")
         st.markdown("""
         <div class="map-btn-card">
-            <a href="https://maps.google.com/?q=THE+SUSUKINO+SQUARE+WEST" target="_blank">📍 導航至集合點：THE SUSUKINO SQUARE WEST (1樓)</a>
+            <a href="https://maps.google.com/?q=THE+SUSUKINO+SQUARE+WEST" target="_blank">📍THE SUSUKINO SQUARE WEST (1樓)</a>
         </div>
         - 📍 地址：〒064-0806 北海道札幌市中央区南6条西5丁目3-6
         
@@ -178,7 +178,7 @@ with tab1:
         """, unsafe_allow_html=True)
         st.markdown("""
         <div class="map-btn-card">
-            <a href="https://maps.google.com/?q=Sapporo+Teine" target="_blank">📍 導航至：手稻滑雪場 (Sapporo Teine)</a>
+            <a href="https://maps.google.com/?q=Sapporo+Teine" target="_blank">📍手稻滑雪場 (Sapporo Teine)</a>
         </div>
         - 滑雪體驗 & 雪盆活動（NT$5,495／人）
         
@@ -186,7 +186,7 @@ with tab1:
         """, unsafe_allow_html=True)
         st.markdown("""
         <div class="map-btn-card">
-            <a href="https://maps.google.com/?q=Menya+Yukikaze+Susukino" target="_blank">📍 導航至：麵屋雪風 薄野本店</a>
+            <a href="https://maps.google.com/?q=Menya+Yukikaze+Susukino" target="_blank">📍麵屋雪風 薄野本店</a>
         </div>
         """, unsafe_allow_html=True)
 
@@ -200,17 +200,17 @@ with tab1:
         for name, q in spots_day6:
             st.markdown(f"""
             <div class="map-btn-card">
-                <a href="https://maps.google.com/?q={q}" target="_blank">📍 導航至：{name}</a>
+                <a href="https://maps.google.com/?q={q}" target="_blank">📍{name}</a>
             </div>
             """, unsafe_allow_html=True)
             
         st.markdown("**🍜 美食推薦**")
         st.markdown("""
         <div class="map-btn-card">
-            <a href="https://maps.google.com/?q=Ichiran+Ramen+Susukino" target="_blank">📍 導航至：一蘭拉麵 札幌薄野店</a>
+            <a href="https://maps.google.com/?q=Ichiran+Ramen+Susukino" target="_blank">📍一蘭拉麵 札幌薄野店</a>
         </div>
         <div class="map-btn-card">
-            <a href="https://maps.google.com/?q=Toriton+Sushi+Sapporo" target="_blank">📍 導航至：トリトン迴轉壽司 (Toriton)</a>
+            <a href="https://maps.google.com/?q=Toriton+Sushi+Sapporo" target="_blank">📍トリトン迴轉壽司 (Toriton)</a>
         </div>
         - 🍓 水果吃爆：草莓等
         """, unsafe_allow_html=True)
@@ -222,7 +222,7 @@ with tab1:
         """)
         st.markdown("""
         <div class="map-btn-card">
-            <a href="https://maps.google.com/?q=New+Chitose+Airport" target="_blank">📍 導航至：新千歲機場</a>
+            <a href="https://maps.google.com/?q=New+Chitose+Airport" target="_blank">📍新千歲機場</a>
         </div>
         - 🕒 **14:00** 搭乘泰亞航 FD243 返回桃園機場<br>
         - 🕒 **17:55** 順利抵達桃園機場
