@@ -4,52 +4,40 @@ import streamlit as st
 st.set_page_config(
     page_title="北海道 7 天 6 夜行程表",
     page_icon="❄️",
-    layout="wide",
-    initial_sidebar_state="expanded"
+    layout="wide"
 )
 
-# 2. 法式奶油風 (French Cream Aesthetic) 輕量 CSS
+# 2. 法式奶油風 (French Cream Aesthetic) 專屬樣式
 st.markdown("""
 <style>
     .stApp {
         background-color: #FDFBF7;
         color: #4A443F;
     }
-    section[data-testid="stSidebar"] {
-        background-color: #F7F2E8;
-    }
     h1, h2, h3 {
         color: #6E5A44 !important;
+    }
+    .custom-card {
+        background-color: #FFFFFF;
+        border: 1px solid #EAE3D2;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 15px;
+        box-shadow: 0 2px 8px rgba(184, 169, 154, 0.05);
     }
 </style>
 """, unsafe_allow_html=True)
 
-# 3. 標題
+# 3. 頁面主標題
 st.title("🇯🇵 日本北海道 7 天 6 夜行程表")
-st.caption("📅 2026/12/06（日）～ 12/12（六）｜ ❄️ 法式奶油風隨身指南")
+st.caption("📅 2026/12/06（日）～ 12/12（六）｜")
 
-# 4. 側邊欄：票券與清單
-st.sidebar.header("🎫 票券與待辦事項")
-st.sidebar.checkbox("eSIM (NT$459)", value=False)
-st.sidebar.checkbox("統聯車票 (NT$395)", value=False)
-st.sidebar.checkbox("Suica 充值", value=False)
-st.sidebar.checkbox("退稅線上登入", value=False)
-st.sidebar.checkbox("Visit Japan Web", value=True)
-
-st.sidebar.markdown("---")
-st.sidebar.header("🛍️ 伴手禮採購清單")
-st.sidebar.checkbox("白色戀人")
-st.sidebar.checkbox("ROYCE 巧克力")
-st.sidebar.checkbox("薯條三兄弟")
-st.sidebar.checkbox("六花亭餅乾")
-st.sidebar.checkbox("北菓樓泡芙")
-st.sidebar.checkbox("Prada 氣墊彩妝")
-
-# 5. 分頁選項
-tab1, tab2, tab3 = st.tabs(["📅 每日行程", "✈️ 機票與住宿", "💰 預算與活動"])
+# 4. 主頁面頂級分頁（取代容易跑版的側邊欄）
+tab1, tab2, tab3, tab4 = st.tabs(["📅 每日行程", "🎫 票券與伴手禮清單", "✈️ 機票與住宿", "💰 預算總覽"])
 
 # --- TAB 1: 每日行程 ---
 with tab1:
+    st.markdown("### 🗺️ 7 天 6 夜詳細行程與地圖導航")
     
     with st.expander("Day 1｜12/06（日）抵達札幌・市區逛街", expanded=True):
         st.markdown("""
@@ -150,10 +138,29 @@ with tab1:
         - 🕒 **17:55** 順利抵達桃園機場
         """)
 
-# --- TAB 2: 機票與住宿 ---
+# --- TAB 2: 票券與伴手禮清單 ---
 with tab2:
-    col1, col2 = st.columns(2)
-    with col1:
+    col_t1, col_t2 = st.columns(2)
+    with col_t1:
+        st.subheader("🎫 票券與行前準備")
+        st.checkbox("eSIM (NT$459)", value=False)
+        st.checkbox("統聯車票 (NT$395)", value=False)
+        st.checkbox("Suica 充值 (iPhone)", value=False)
+        st.checkbox("退稅線上登入", value=False)
+        st.checkbox("Visit Japan Web 線上入境申請", value=True)
+    with col_t2:
+        st.subheader("🛍️ 伴手禮採購清單")
+        st.checkbox("白色戀人")
+        st.checkbox("ROYCE 巧克力")
+        st.checkbox("薯條三兄弟")
+        st.checkbox("六花亭餅乾")
+        st.checkbox("北菓樓泡芙")
+        st.checkbox("Prada 氣墊彩妝")
+
+# --- TAB 3: 機票與住宿 ---
+with tab3:
+    col_f, col_h = st.columns(2)
+    with col_f:
         st.subheader("✈️ 機票資訊")
         st.markdown("""
         **【去程｜12/06（日）】**
@@ -164,7 +171,7 @@ with tab2:
         - 班機：FD243（14:00 CTS ➔ 17:55 TPE）
         - 價格：NT$12,379 / 人（手提 7kg、托運 25/30kg）
         """)
-    with col2:
+    with col_h:
         st.subheader("🏠 住宿資訊")
         st.markdown("""
         **Holiday Inn Express Sapporo Susukino**
@@ -175,8 +182,8 @@ with tab2:
         - [🗺️ Google 地圖導航](https://maps.google.com/?q=Holiday+Inn+Express+Sapporo+Susukino)
         """)
 
-# --- TAB 3: 預算與活動 ---
-with tab3:
+# --- TAB 4: 預算總覽 ---
+with tab4:
     st.subheader("💰 已規劃活動與預算一覽")
     st.markdown("""
     | 項目 | 日期 | 預估價格（每人） |
