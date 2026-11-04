@@ -119,7 +119,7 @@ with tab1:
         - 滑雪體驗 & 雪盆活動（NT$5,495／人）
         
         **🍜 美食推薦**
-        - 🕒 **17:45** [蟹座](https://maps.google.com/?q=Kaniza+Sapporo)
+        - 🕒 **20:30** [蟹座](https://maps.google.com/?q=Kaniza+Sapporo)
         """)  # <--- 這裡原本漏了這個結尾引號和括號
 
     with st.expander("Day 6｜12/11（五）札幌市區深入漫遊"):
