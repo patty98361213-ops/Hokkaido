@@ -88,7 +88,8 @@ with tab1:
         - 🚣 漂流活動時間約 5 小時（費用：¥10,000／人）
         
         **🍜 美食推薦**
-        - [蟹座](https://maps.google.com/?q=Kaniza+Sapporo)
+        - [麵屋](https://maps.google.com/?q=Menya+Yukikaze+Susukino)
+        """)
         - 🍓 水果吃爆：草莓等
         """)
 
@@ -120,8 +121,8 @@ with tab1:
         - 滑雪體驗 & 雪盆活動（NT$5,495／人）
         
         **🍜 美食推薦**
-        - [麵屋雪風 薄野本店](https://maps.google.com/?q=Menya+Yukikaze+Susukino)
-        """)
+        - [蟹座](https://maps.google.com/?q=Kaniza+Sapporo)
+        
 
     with st.expander("Day 6｜12/11（五）札幌市區深入漫遊"):
         st.markdown("""
