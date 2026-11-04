@@ -155,7 +155,7 @@ with tab2:
         st.checkbox("薯條三兄弟")
         st.checkbox("六花亭餅乾")
         st.checkbox("北菓樓泡芙")
-        st.checkbox("Prada 氣墊彩妝")
+        st.checkbox("LeTao紅茶巧克力餅乾")
 
 # --- TAB 3: 機票與住宿 ---
 with tab3:
