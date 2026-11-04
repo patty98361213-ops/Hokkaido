@@ -79,7 +79,7 @@ with tab1:
         
         **🍜 美食推薦**
         - 🏪 早餐：超商買好車上吃
-        - 🕒 **15:00** [味噌拉麵 すみれ (Sumire)](https://maps.google.com/?q=Sumire+Sapporo+Susukino)
+        - 🕒 **20:00** [味噌拉麵 すみれ (Sumire)](https://maps.google.com/?q=Sumire+Sapporo+Susukino)
         - 🍓 水果吃爆：草莓等
         """)
 
