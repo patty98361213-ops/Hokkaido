@@ -85,9 +85,10 @@ with tab1:
 
     with st.expander("Day 3｜12/08（二）定山溪漂流"):
         st.markdown("""
-        - 🕒 **09:30** 從薄野公車站搭乘公車前往定山溪
+        - 🕒 **09:35** 從薄野公車站搭乘公車前往定山溪
         - 🕒 **11:30** 集合地點：[フリルフスリフ（Friluftsliv）](https://maps.google.com/?q=Friluftsliv+Jozankei)
         - 🚣 漂流活動時間約 5 小時（費用：¥10,000／人）
+        - 🕒 **15:15** 從定山溪搭乘公車前往薄野
         
         **🍜 美食推薦**
         - 🕒 **18:00** [羊座](https://maps.app.goo.gl/hFQD9MeCFw2uT5wH6?g_st=ic)
