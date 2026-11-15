@@ -60,6 +60,7 @@ with tab1:
         - [PARCO 百貨公司](https://maps.google.com/?q=Sapporo+PARCO)
         - [大丸百貨公司](https://maps.google.com/?q=Daimaru+Sapporo)
         - [名取川鞋店](https://maps.app.goo.gl/z8jTkyngudZYvw5K9?g_st=ic)
+        - [Uniqlo札幌三越店](https://maps.app.goo.gl/2KsV89igSdbZPvQh6?g_st=ic)
         
         **🍜 美食推薦**
         - [Soup Curry GARAKU 湯咖哩](https://maps.google.com/?q=Soup+Curry+GARAKU+Sapporo)
