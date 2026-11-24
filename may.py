@@ -64,7 +64,7 @@ with tab1:
         
         **🍜 美食推薦**
         - [Soup Curry GARAKU 湯咖哩](https://maps.google.com/?q=Soup+Curry+GARAKU+Sapporo)
-        - 🍓 水果吃爆：草莓等特產水果
+        - 🍓 [水果吃爆：草莓等特產水果](https://maps.app.goo.gl/45vFGyRDne4sH2mf6?g_st=ic)
         """)
 
     with st.expander("Day 2｜12/07（一）旭川動物園・美瑛一日遊"):
